@@ -1,4 +1,5 @@
 {
+   
     "type": "project",
     "license": "proprietary",
     "minimum-stability": "stable",
@@ -77,5 +78,9 @@
         "symfony/debug-bundle": "6.0.*",
         "symfony/stopwatch": "6.0.*",
         "symfony/web-profiler-bundle": "6.0.*"
-    }
+    },
+    "require": {
+        "php": "^8.0.2"
+}
+    
 }
