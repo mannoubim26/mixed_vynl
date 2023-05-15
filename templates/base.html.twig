@@ -1,16 +1,18 @@
-
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
         <title>{% block title %}Mixed Vinyl{% endblock %}</title>
+
         <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('apple-touch-icon.png') }}">
         <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('favicon-32x32.png') }}">
         <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('favicon-16x16.png') }}">
+
         {# Run `composer require symfony/webpack-encore-bundle` to start using Symfony UX #}
         {% block stylesheets %}
             {{ encore_entry_link_tags('app') }}
         {% endblock %}
+
         {% block javascripts %}
             {{ encore_entry_script_tags('app') }}
         {% endblock %}
@@ -35,6 +37,7 @@
                             <!-- Not Authenticated -->
                                 <!-- <li class="nav-item"><button href="#" class="btn btn-primary btn-sm">Login</button></li> -->
                             <!-- End Not Authenticated -->
+
                             <!-- If Authenticated -->
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -51,13 +54,16 @@
                 </div>
             </nav>
             <!-- End Main Navigation -->
+
             {% for message in app.flashes('success') %}
                 <div class="alert alert-success">
                     {{ message }}
                 </div>
             {% endfor %}
         </div>
+
         {% block body %}{% endblock %}
+
         <!-- Footer -->
         <div class="container mt-5">
             <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
@@ -68,11 +74,13 @@
                         SymfonyCasts
                     </a>
                 </div>
+
                 <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
                     <li class="ms-3"><a class="text-muted" target="_blank" href="https://github.com/SymfonyCasts/symfony6"><i class="fab fa-github"></i></a></li>
                 </ul>
             </footer>
         </div>
         <!-- End Footer -->
+
     </body>
 </html>
