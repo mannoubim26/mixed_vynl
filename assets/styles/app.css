@@ -3,8 +3,8 @@
 @import '~@fontsource/roboto-condensed';
 
 body {
-    background-color: #0E8388;
-    color: #000;
+    background-color:#b1dbd1;
+    color: rgb(0, 0, 0);
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -13,11 +13,12 @@ body {
 }
 
 .song-list a {
-    color: #000;
+    color: rgb(0, 0, 0);
 }
 
 .song-details {
-    background-color: #2E4F4F;
+    background-color: #b1dbd1;
+;
     border-radius: 5px;
     padding: 5px;
 }
@@ -30,4 +31,5 @@ body {
     background: rgb(23,36,44);
     background: linear-gradient(180deg, rgba(23,36,44,1) 1%, rgba(34,47,54,1) 97%);
     border-radius: 5px;
+
 }
