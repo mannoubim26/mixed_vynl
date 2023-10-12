@@ -15,17 +15,6 @@ Mixed Vinyl Symphony is a project that aims to bridge the gap between traditiona
 - **User-Friendly Interface**: Intuitive user interface for easy navigation and control.
 - **Cross-Platform Compatibility**: Works on Windows, macOS, and Linux.
 
-## Getting Started
-
-Follow these steps to set up the Mixed Vinyl Symphony project on your local machine.
-
-### Prerequisites
-
-- Vinyl record player and collection
-- Computer with audio input capability
-- Operating System (Windows, macOS, Linux)
-- Music files in digital format
-
 ## Usage
 
 1. Start the application using the instructions provided in the "Launching the Application" section.
